@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Personal portfolio of [YOUR NAME], a Computer Science graduate and aspiring Full-Stack Developer."
+    />
+    <meta name="author" content="[YOUR NAME]" />
+
+    <title>BEN.DIV | Aspiring Full-Stack Developer</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="port.css" />
+  </head>
+
+  <body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="site-header">
+      <div class="container nav-container">
+        <!-- Logo / Name -->
+        <a href="#home" class="logo">
+          <span>&lt;</span> BEN<span>.DIV</span> <span>/&gt;</span>
+        </a>
+
+        <!-- CSS-only mobile navigation toggle -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+        <label
+          for="menu-toggle"
+          class="menu-icon"
+          aria-label="Open navigation menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-cta">Let's Talk</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- ==================== HERO ==================== -->
+      <section id="home" class="hero">
+        <div class="hero-background"></div>
+
+        <div class="container hero-container">
+          <div class="hero-content">
+            <p class="eyebrow">
+              <span class="status-dot"></span>
+              Computer Science Graduate
+            </p>
+
+            <h1>
+              Building the web,
+              <span>one idea at a time.</span>
+            </h1>
+
+            <p class="hero-description">
+              Hi, I'm <strong>BENEDICT</strong> — a Computer Science graduate
+              and aspiring Full-Stack Developer focused on creating modern,
+              responsive and user-friendly websites.
+            </p>
+
+            <p class="hero-description secondary">
+              I'm currently strengthening my frontend development skills while
+              growing toward backend development and AI-powered applications.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">
+                Hire Me
+                <span>→</span>
+              </a>
+
+              <a href="#projects" class="btn btn-secondary">
+                View My Projects
+              </a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat">
+                <strong>01+</strong>
+                <span>Years Learning</span>
+              </div>
+
+              <div class="stat">
+                <strong>CS</strong>
+                <span>Graduate</span>
+              </div>
+
+              <div class="stat">
+                <strong>∞</strong>
+                <span>Learning Mindset</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile image -->
+          <div class="hero-image-wrapper">
+            <div class="image-glow"></div>
+
+            <div class="hero-image-card">
+              <!--
+                            IMPORTANT:
+                            Replace assets/images/profile.jpg with your actual professional photo.
+
+                            Put your photo inside:
+                            assets/images/profile.jpg
+                        -->
+              <img id="image-me" src="benedict.jpg" alt="benedict-photo" />
+
+              <div class="floating-card floating-card-top">
+                <span class="code-icon">&lt;/&gt;</span>
+                <div>
+                  <strong>Clean Code</strong>
+                  <small>HTML + CSS</small>
+                </div>
+              </div>
+
+              <div class="floating-card floating-card-bottom">
+                <span class="pulse"></span>
+                <div>
+                  <strong>Currently Learning</strong>
+                  <small>Full-Stack Development</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== ABOUT ==================== -->
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">GET TO KNOW ME</p>
+              <h2>About <span>Me</span></h2>
+            </div>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-image">
+              <!-- Replace with your real photo -->
+              <img src="fyb.jpg" alt="Benedict photo" />
+
+              <div class="about-image-frame"></div>
+
+              <div class="about-badge">
+                <strong>CS</strong>
+                <span>Graduate</span>
+              </div>
+            </div>
+
+            <div class="about-content">
+              <p class="about-lead">
+                I am a Computer Science graduate with a growing passion for web
+                development, technology and solving problems through digital
+                solutions.
+              </p>
+
+              <p>
+                My journey into development started with learning how websites
+                are structured and styled using HTML and CSS. Since then, I have
+                been building my understanding of responsive web design and
+                modern development practices.
+              </p>
+
+              <p>
+                I enjoy turning ideas into clean and functional interfaces that
+                are easy for people to use. I am also continuously learning
+                JavaScript, Python and the technologies required to become a
+                well-rounded Full-Stack Developer.
+              </p>
+
+              <p>
+                My long-term goal is to build reliable web applications, work
+                with backend technologies, APIs and databases, and eventually
+                create useful AI-powered applications.
+              </p>
+
+              <div class="about-highlights">
+                <div>
+                  <span>✓</span>
+                  <p>Problem-solving mindset</p>
+                </div>
+
+                <div>
+                  <span>✓</span>
+                  <p>Always learning</p>
+                </div>
+
+                <div>
+                  <span>✓</span>
+                  <p>Responsive-first approach</p>
+                </div>
+
+                <div>
+                  <span>✓</span>
+                  <p>Client-focused development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SKILLS ==================== -->
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="section-heading centered">
+            <div>
+              <p class="section-label">WHAT I KNOW</p>
+              <h2>My <span>Skills</span></h2>
+            </div>
+          </div>
+
+          <p class="section-intro">
+            These are the technologies and development areas I am currently
+            using, learning and working toward mastering.
+          </p>
+
+          <div class="skills-grid">
+            <!-- Frontend -->
+            <article class="skill-card">
+              <div class="skill-icon">&lt;/&gt;</div>
+
+              <h3>Frontend Development</h3>
+
+              <p>
+                Technologies and principles I currently use to build responsive
+                web interfaces.
+              </p>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <span>HTML5</span>
+                  <span class="skill-level current">Current</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>CSS3</span>
+                  <span class="skill-level current">Current</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>Responsive Design</span>
+                  <span class="skill-level current">Current</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>Flexbox & Grid</span>
+                  <span class="skill-level current">Current</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>Basic UI/UX</span>
+                  <span class="skill-level current">Current</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Programming -->
+            <article class="skill-card">
+              <div class="skill-icon">{ }</div>
+
+              <h3>Programming & Tools</h3>
+
+              <p>
+                Technologies I am learning to expand my development
+                capabilities.
+              </p>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <span>JavaScript</span>
+                  <span class="skill-level learning">Learning</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>Python</span>
+                  <span class="skill-level learning">Learning</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>Git & GitHub</span>
+                  <span class="skill-level learning">Learning</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>VS Code</span>
+                  <span class="skill-level current">Using</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Future -->
+            <article class="skill-card">
+              <div class="skill-icon">⚡</div>
+
+              <h3>Full-Stack Roadmap</h3>
+
+              <p>
+                Technologies I am working toward as I develop into a Full-Stack
+                Developer.
+              </p>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <span>Backend Development</span>
+                  <span class="skill-level future">Future</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>APIs</span>
+                  <span class="skill-level future">Future</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>Databases</span>
+                  <span class="skill-level future">Future</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>Authentication</span>
+                  <span class="skill-level future">Future</span>
+                </div>
+
+                <div class="skill-item">
+                  <span>AI Applications</span>
+                  <span class="skill-level future">Future</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SERVICES ==================== -->
+      <section id="services" class="section services-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">WHAT I CAN DO</p>
+              <h2>My <span>Services</span></h2>
+            </div>
+          </div>
+
+          <p class="section-intro left">
+            I help individuals, small businesses and organizations establish a
+            professional presence on the web.
+          </p>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <span class="service-number">01</span>
+              <div class="service-icon">◈</div>
+              <h3>Responsive Website Development</h3>
+              <p>
+                Websites designed to provide a smooth experience across phones,
+                tablets, laptops and desktop computers.
+              </p>
+              <a  class="discuss-button" href="#contact">Discuss a project →</a>
+            </article>
+
+            <article class="service-card">
+              <span class="service-number">02</span>
+              <div class="service-icon">▣</div>
+              <h3>Business Websites</h3>
+              <p>
+                Professional websites for small businesses, organizations,
+                personal brands and entrepreneurs.
+              </p>
+              <a class="discuss-button"  href="#contact">Discuss a project →</a>
+            </article>
+
+            <article class="service-card">
+              <span class="service-number">03</span>
+              <div class="service-icon">✦</div>
+              <h3>Landing Pages</h3>
+              <p>
+                Clean and modern landing pages designed to communicate products,
+                services and ideas effectively.
+              </p>
+              <a class="discuss-button" href="#contact">Discuss a project →</a>
+            </article>
+
+            <article class="service-card">
+              <span class="service-number">04</span>
+              <div class="service-icon">&lt;_&gt;</div>
+              <h3>Website UI Development</h3>
+              <p>
+                Transforming design concepts and ideas into structured,
+                responsive HTML and CSS interfaces.
+              </p>
+              <a href="#contact">Discuss a project →</a>
+            </article>
+
+            <article class="service-card">
+              <span class="service-number">05</span>
+              <div class="service-icon">↻</div>
+              <h3>Website Redesign</h3>
+              <p>
+                Improving the visual appearance, responsiveness and structure of
+                existing websites.
+              </p>
+              <a href="#contact">Discuss a project →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== PROJECTS ==================== -->
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">MY WORK</p>
+              <h2>Selected <span>Projects</span></h2>
+            </div>
+          </div>
+
+          <p class="section-intro left">
+            A selection of projects that represent my current skills and the
+            type of work I am building toward.
+          </p>
+
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+              <!-- Replace image with your actual project screenshot -->
+              <div class="project-image">
+                <img
+                  src="assets/images/project1.jpg"
+                  alt="Personal Portfolio Website project"
+                />
+
+                <span class="project-label">PLACEHOLDER</span>
+              </div>
+
+              <div class="project-content">
+                <div class="project-top">
+                  <span>01</span>
+                  <span>Web Design</span>
+                </div>
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                  A modern personal portfolio designed to showcase development
+                  skills, services and professional goals.
+                </p>
+
+                <div class="technologies">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Responsive</span>
+                </div>
+
+                <div class="project-links">
+                  <!-- Replace # with your real project URL -->
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    View Project ↗
+                  </a>
+
+                  <!-- Replace # with your GitHub repository -->
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    View Code
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+              <!-- Replace with project2.jpg -->
+              <div class="project-image">
+                <img
+                  src="assets/images/project2.jpg"
+                  alt="Business Landing Page project"
+                />
+
+                <span class="project-label">PLACEHOLDER</span>
+              </div>
+
+              <div class="project-content">
+                <div class="project-top">
+                  <span>02</span>
+                  <span>Landing Page</span>
+                </div>
+
+                <h3>Business Landing Page</h3>
+
+                <p>
+                  A professional landing page concept for a small business or
+                  service-based brand.
+                </p>
+
+                <div class="technologies">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Grid</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    View Project ↗
+                  </a>
+
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    View Code
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+              <!-- Replace with project3.jpg -->
+              <div class="project-image">
+                <img
+                  src="assets/images/project3.jpg"
+                  alt="Responsive Restaurant Website project"
+                />
+
+                <span class="project-label">PLACEHOLDER</span>
+              </div>
+
+              <div class="project-content">
+                <div class="project-top">
+                  <span>03</span>
+                  <span>Responsive UI</span>
+                </div>
+
+                <h3>Restaurant Website</h3>
+
+                <p>
+                  A responsive restaurant website concept featuring menu
+                  presentation, business information and contact sections.
+                </p>
+
+                <div class="technologies">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Flexbox</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    View Project ↗
+                  </a>
+
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    View Code
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project-card">
+              <!-- Replace with project4.jpg -->
+              <div class="project-image">
+                <img
+                  src="assets/images/project4.jpg"
+                  alt="Environmental Awareness Website project"
+                />
+
+                <span class="project-label">PLACEHOLDER</span>
+              </div>
+
+              <div class="project-content">
+                <div class="project-top">
+                  <span>04</span>
+                  <span>Web Application Concept</span>
+                </div>
+
+                <h3>Sanitation Awareness Website</h3>
+
+                <p>
+                  An environmental awareness website concept focused on
+                  sanitation, cleanliness and public awareness.
+                </p>
+
+                <div class="technologies">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Responsive</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    View Project ↗
+                  </a>
+
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    View Code
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== JOURNEY ==================== -->
+      <section class="section journey-section">
+        <div class="container">
+          <div class="section-heading centered">
+            <div>
+              <p class="section-label">MY DEVELOPMENT PATH</p>
+              <h2>Frontend → <span>Full-Stack</span></h2>
+            </div>
+          </div>
+
+          <p class="section-intro">
+            I am building my skills step by step rather than trying to master
+            everything at once.
+          </p>
+
+          <div class="journey">
+            <div class="journey-line"></div>
+
+            <article class="journey-card current">
+              <div class="journey-marker">01</div>
+
+              <div class="journey-content">
+                <span class="journey-status">CURRENT</span>
+                <h3>Frontend Foundation</h3>
+
+                <div class="journey-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Responsive Design</span>
+                  <span>Flexbox</span>
+                  <span>Grid</span>
+                </div>
+
+                <p>
+                  Building strong foundations in modern frontend development and
+                  responsive web design.
+                </p>
+              </div>
+            </article>
+
+            <article class="journey-card learning">
+              <div class="journey-marker">02</div>
+
+              <div class="journey-content">
+                <span class="journey-status">LEARNING</span>
+                <h3>Programming & Development</h3>
+
+                <div class="journey-tags">
+                  <span>JavaScript</span>
+                  <span>Python</span>
+                  <span>Git</span>
+                  <span>GitHub</span>
+                </div>
+
+                <p>
+                  Developing programming skills and learning how modern
+                  applications are built.
+                </p>
+              </div>
+            </article>
+
+            <article class="journey-card future">
+              <div class="journey-marker">03</div>
+
+              <div class="journey-content">
+                <span class="journey-status">NEXT LEVEL</span>
+                <h3>Full-Stack Development</h3>
+
+                <div class="journey-tags">
+                  <span>Backend</span>
+                  <span>APIs</span>
+                  <span>Databases</span>
+                  <span>Authentication</span>
+                </div>
+
+                <p>
+                  Progressing into backend development and learning how frontend
+                  and backend systems work together.
+                </p>
+              </div>
+            </article>
+
+            <article class="journey-card future">
+              <div class="journey-marker">04</div>
+
+              <div class="journey-content">
+                <span class="journey-status">LONG-TERM GOAL</span>
+                <h3>Full-Stack + AI Applications</h3>
+
+                <div class="journey-tags">
+                  <span>Deployment</span>
+                  <span>Cloud</span>
+                  <span>AI APIs</span>
+                  <span>AI Applications</span>
+                </div>
+
+                <p>
+                  Building complete applications and integrating useful AI
+                  capabilities into real-world products.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== WHY WORK WITH ME ==================== -->
+      <section class="section why-section">
+        <div class="container">
+          <div class="why-grid">
+            <div class="why-content">
+              <p class="section-label">WHY WORK WITH ME?</p>
+
+              <h2>
+                I may still be growing,
+                <span>but I'm serious about the journey.</span>
+              </h2>
+
+              <p>
+                I believe good development is not only about writing code. It is
+                about understanding the problem, communicating clearly and
+                creating something that people can actually use.
+              </p>
+
+              <a href="#contact" class="btn btn-primary">
+                Let's Work Together →
+              </a>
+            </div>
+
+            <div class="why-list">
+              <div class="why-item">
+                <span class="why-icon">01</span>
+                <div>
+                  <h3>Clean & Responsive Design</h3>
+                  <p>
+                    I focus on interfaces that work across different screen
+                    sizes and remain easy to use.
+                  </p>
+                </div>
+              </div>
+
+              <div class="why-item">
+                <span class="why-icon">02</span>
+                <div>
+                  <h3>Attention to Detail</h3>
+                  <p>
+                    I care about structure, spacing, readability and the small
+                    details that improve a website.
+                  </p>
+                </div>
+              </div>
+
+              <div class="why-item">
+                <span class="why-icon">03</span>
+                <div>
+                  <h3>Willingness to Learn</h3>
+                  <p>
+                    I continuously improve my skills and stay open to better
+                    ways of solving problems.
+                  </p>
+                </div>
+              </div>
+
+              <div class="why-item">
+                <span class="why-icon">04</span>
+                <div>
+                  <h3>Professional Communication</h3>
+                  <p>
+                    Clear communication and understanding client requirements
+                    are important to me.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== CONTACT ==================== -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section-heading centered">
+            <div>
+              <p class="section-label">GET IN TOUCH</p>
+              <h2>Let's Build Something <span>Useful</span></h2>
+            </div>
+          </div>
+
+          <p class="section-intro">
+            Have a project, business idea or website that needs a fresh start?
+            Let's talk about it.
+          </p>
+
+          <div class="contact-grid">
+            <!-- Contact information -->
+            <div class="contact-info">
+              <h3>Start a conversation</h3>
+
+              <p>
+                Whether you need a simple landing page, business website or want
+                to discuss a future project, feel free to contact me.
+              </p>
+
+              <!-- Replace placeholder details below -->
+              <div class="contact-details">
+                <a href="mailto:your@email.com" class="contact-detail">
+                  <span class="contact-detail-icon">@</span>
+                  <div>
+                    <small>Email</small>
+                    <strong>yahayabenedict2020@gmail.com</strong>
+                  </div>
+                </a>
+
+                <a href="tel:+2340000000000" class="contact-detail">
+                  <span class="contact-detail-icon">☎</span>
+                  <div>
+                    <small>Phone / WhatsApp</small>
+                    <strong>+234 808 118 6864</strong>
+                  </div>
+                </a>
+
+                <div class="contact-detail">
+                  <span class="contact-detail-icon">⌖</span>
+                  <div>
+                    <small>Location</small>
+                    <strong>Nigeria</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <!-- Replace # with your real links -->
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  GH
+                </a>
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  in
+                </a>
+
+                <a
+                  href="https://wa.me/2340000000000"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WhatsApp"
+                >
+                  WA
+                </a>
+
+                <a href="mailto:your@email.com" aria-label="Email"> @ </a>
+              </div>
+            </div>
+
+            <!-- Contact form -->
+            <div class="contact-form-wrapper">
+              <form class="contact-form" action="#" method="post">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Enter your name"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="you@example.com"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="What can I help you with?"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Tell me a little about your project..."
+                    required
+                  ></textarea>
+                </div>
+
+                <!--
+                                NOTE:
+                                This form uses HTML5 validation only.
+                                JavaScript is intentionally NOT used.
+
+                                To make the form actually send messages,
+                                connect the form action to a backend/form
+                                service later.
+                            -->
+
+                <button type="submit" class="btn btn-primary form-button">
+                  Send Message
+                  <span>→</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span>&lt;</span>BEN<span>.DIV</span><span>/&gt;</span>
+          </a>
+
+          <p>Aspiring Full-Stack Developer</p>
+        </div>
+
+        <div class="footer-socials">
+          <!-- Replace these # links with your real profiles -->
+
+          <a href="#" target="_blank" rel="noopener noreferrer"> GitHub </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
+
+          <a href="mailto:your@email.com"> Email </a>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 BEN.DIV. All rights reserved.</p>
+
+          <a href="#home"> Back to top ↑ </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
